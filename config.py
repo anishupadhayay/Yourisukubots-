@@ -1,39 +1,3 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# 🚀 ISUKOBIT — TELEGRAM FILE STORE BOT
-# ═══════════════════════════════════════════════════════════════════════════
-# File      : config.py
-# Purpose   : .env load karna + saari settings ko accessible banana
-# Author    : Isukobit Team
-# Version   : 1.0.0
-# Python    : 3.10+ (3.11 recommended)
-# License   : Private
-# ═══════════════════════════════════════════════════════════════════════════
-#
-# YEH FILE KYA KARTI HAI:
-# ─────────────────────────────────────────────────────────────────────────
-# 1. .env file ko load karti hai
-# 2. Bootstrap settings (jo .env se aati hain) ko validate karti hai
-# 3. DEFAULT_SETTINGS dictionary deti hai — jo database mein store hongi
-# 4. Runtime SettingsCache banati hai — memory mein fast access ke liye
-# 5. Logging setup karti hai (console + file)
-# 6. Constants class — saari fixed values (emojis, table names, etc.)
-# 7. Colors class — terminal output ko colorful banane ke liye
-#
-# KAISE USE KARO:
-# ─────────────────────────────────────────────────────────────────────────
-# from config import Bootstrap, settings, log, Constants
-#
-# print(Bootstrap.BOT_TOKEN)
-# print(settings.get("max_file_size"))
-# log.info("Bot started")
-#
-# ═══════════════════════════════════════════════════════════════════════════
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-# 📦 IMPORTS
-# ═══════════════════════════════════════════════════════════════════════════
-
 import os
 import sys
 import json
