@@ -275,7 +275,7 @@ sessions/
 ## ❓ FAQ
 
 **Bot is not working for uploads.**
-Make the bot admin again in the storage channel (Post Messages permission). Channel → Administrators → Add → @yourisukubot
+create a storage channel in telegram then make admin to chennel then your bot works fine.
 
 **Flood Control error is coming.**
 This is an error from the old code. The new code has a Queue System — all files go through the waiting list. Upload the latest `handlers_upload.py` and restart.
