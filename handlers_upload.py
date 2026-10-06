@@ -1,38 +1,3 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# 🚀 ISUKOBIT — TELEGRAM FILE STORE BOT
-# ═══════════════════════════════════════════════════════════════════════════
-# File      : handlers_upload.py
-# Purpose   : File upload ke saare handlers
-# Author    : Isukobit Team
-# Version   : 1.0.0
-# Python    : 3.10+
-# Library   : aiogram 3.x
-# ═══════════════════════════════════════════════════════════════════════════
-#
-# YEH FILE KYA KARTI HAI:
-# ─────────────────────────────────────────────────────────────────────────
-# 1. Upload prompt dikhati hai (button dabane pe)
-# 2. Document, Video, Audio, Photo, Voice, VideoNote, Animation handle
-# 3. File size check
-# 4. File type check
-# 5. Duplicate detection (hash se)
-# 6. Storage channel mein forward karti hai
-# 7. Backup channel mein copy karti hai
-# 8. File code generate karti hai
-# 9. Database mein save karti hai
-# 10. User ko link + code dikhati hai
-# 11. Upload success keyboard
-# 12. Error handling + retry
-# 13. Log channel notification
-# 14. Rate limit check
-# 15. Per-user file limit check
-# ═══════════════════════════════════════════════════════════════════════════
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-# 📦 IMPORTS
-# ═══════════════════════════════════════════════════════════════════════════
-
 import time
 import asyncio
 import hashlib
